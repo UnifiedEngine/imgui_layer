@@ -20,7 +20,7 @@ public:
     }
 
     virtual void OnUpdate(Time) override {
-        ImGui::Begin("ExampleInterfaces");
+        ImGui::Begin("ImGuiLayer");
         ImGui::Text("Hello World!");
         ImGui::End();
     }
