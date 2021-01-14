@@ -2,7 +2,7 @@
 
 #include <unified/application/application.hpp>
 
-#include <glfw/glfw3.h>
+#include <GLFW/glfw3.h>
 
 UNIFIED_BEGIN_NAMESPACE
 UNIFIED_MODULES_BEGIN_NAMESPACE
