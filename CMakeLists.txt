@@ -10,6 +10,6 @@ add_library(${PROJECT_NAME} STATIC ${IMGUI_LAYER_IMGUI_SRC_FILES}
 )
 
 target_compile_definitions(${PROJECT_NAME} PUBLIC -DIMGUI_IMPL_OPENGL_LOADER_GLAD)
-
-target_link_libraries(${PROJECT_NAME} PRIVATE ${UNIFIED_PROJECT} glfw ${GLFW_LIBRARIES} glad ${CMAKE_DL_LIBS})
 target_include_directories(${PROJECT_NAME} PUBLIC ${IMGUI_LAYER_IMGUI_DIR})
+
+target_link_libraries(${PROJECT_NAME} PUBLIC ${UNIFIED_PROJECT} glfw ${GLFW_LIBRARIES} glad ${CMAKE_DL_LIBS})
