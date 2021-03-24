@@ -20,6 +20,10 @@ public:
     virtual void OnPreUpdate() override;
     virtual void OnPostUpdate() override;
 
+protected:
+
+    static void ApplyDefaultStyle(ImGuiStyle &style);
+
 };
 
 UNIFIED_MODULES_END_NAMESPACE
